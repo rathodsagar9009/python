@@ -10,5 +10,5 @@ print(b)
 
 # sum= set()                      #empty set
 # print(type(sum))
-sum = {}
+sum = {}                              # empty dictionary
 print(type(sum))
