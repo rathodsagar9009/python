@@ -54,8 +54,50 @@
 # cal_fact(5)
 
 # 4] usd to inr convert
-def converter(usd):
-    inr=usd*83
-    print(usd,"USD=",inr,"INR")
+# def converter(usd):
+#     inr=usd*83
+#     print(usd,"USD=",inr,"INR")
 
-converter(2)
+# converter(2)
+
+#  5] even odd define using function
+
+# def con_kuku(n):
+#     if(n%2==0):
+#      print("even")
+#     else:
+#        print("odd")
+       
+# con_kuku(5)
+
+
+#                               [   RECURSION  ]
+#LOOPS==RECURTION
+
+# def show(n):
+#     if(n==0):         #base case kevay  
+#         return
+#     print(n)
+#     show(n-1)
+
+
+# show(5)
+ # using recurton factorial
+
+# def fact(n):
+#     if(n==0 or n==1):
+#         return 1
+#     return(fact(n-1)*n)
+
+
+# print(fact(5))
+
+#                                         practice 
+# write a recurtion function to calculate the sum of first n natural numbers.
+def calc_sum(n):
+    if(n==0):
+        return 0
+    return calc_sum(n-1)+n
+
+sum=calc_sum(5)
+print(sum)
