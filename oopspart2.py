@@ -200,12 +200,78 @@
 #example :- (5i+9j) + (4i+6j) = 9i+15j
 
 
-class complpex:
-    def __init__(self,real,img):
-        self.real=real
-        self.img=img
+# class complpex:
+#     def __init__(self,real,img):
+#         self.real=real
+#         self.img=img
 
-    def number(self):
-     print(self.real,"i +",self.img,"j")
+#     def shownumber(self):
+#      print(self.real,"i +",self.img,"j")
 
+#      def __add__(self,num2):
+#         newreal=self.real -num2.real
+#         newimg=self.img - num2.img
+#         return complex(newreal,newimg)
+
+
+# num1=complex(5,2)
+# print(num1)
+
+# num2=complex(8,6)
+# print(num2)
+
+# num3=num1-num2
+# print("subtraction of two real numbers and img number is :",num3)
+
+
+
+
+
+
+#                                      [       PRACTICE        ]
+
+# P1] DEFINE A CIRCLE CLASS TO CREAT A CIRCLE WITH RADIUS USING THE CONSTRUCTOR:
+# P2] DEFINE AN AREA()METHOD OF THE CLASS WHICH CALCULATES THE AREA OF THE CIRCLE.
+
+# class Circle:
+   
+#     def __init__(self,radius):
+#        self.radius=radius 
+
+#     def area(self):
+#         return (22/7)*self.radius**2
     
+#     def paremeter(self):
+#         return 2*(22/7)*self.radius
+        
+
+
+# c1=Circle(21)
+# print(c1.area())
+# print(c1.paremeter())
+
+
+
+# P3] DEFINE A EMPLOYEE CLASS WITH ATTRIBUTE ROLE,DEPARTMENT& SALALRY.THIS CLASS ALSO SHOWDETAIL() METHOD.
+class Employee:
+    role="anonymous"
+    dept="anonymous"
+    salary="anonymous"
+
+    def __init__(self,role,dept,salary):
+        self.role=role
+        self.dept=dept
+        self.salary=salary
+    def showDetails(self):
+        print("role =",self.role)
+        print("dept =",self.dept)
+        print("salary =",self.salary)
+   
+
+
+
+
+e1=Employee("abc")
+e1.showDetails()
+
+
