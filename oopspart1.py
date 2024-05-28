@@ -68,7 +68,7 @@
 
 #                                [      Static Method    ]
 
-# without self method kevay che , aa class level nni mehod kevay che
+# without self method kevay che , aa class level ni mehod kevay che
  
 # @staticmethod("decorator=meas keva ma ave che ke ame static method no used karva magi chi")
 # class student:
