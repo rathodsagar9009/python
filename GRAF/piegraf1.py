@@ -1,16 +1,9 @@
 import matplotlib.pyplot as plt
 
-x=[1,2,3]
-
-
-
+x=[15,20,30,45,90,60]
 
 plt.pie(x)
 
-plt.xlabel("X - AXIS")
-
-plt.ylabel("Y - AXIS")
-
-plt.title("PIR GRAF")
+plt.title("PIE GRAF")
 
 plt.show()
